@@ -42,6 +42,7 @@ body{
 
            /* /nav-bar*/
 
+          /* Jambo */
 #jambo{
     display: flex;
     justify-content: center;
@@ -65,6 +66,12 @@ body{
     margin-bottom: 50px;
 }
 
+#jambo-title h1{
+    font-size: 4em;
+    text-align: center;
+    padding-top: 30px;
+}
+
 
 #jambo-section{
     display: flex;
@@ -85,4 +92,124 @@ body{
     flex-grow: 1;
     height: 100%;
     background-color:  rgba(173, 216, 230, 0.438) ;
+}
+   /* /Jambo */
+
+  /* main-sections*/
+
+ .main-sections{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 3000px;
+    background-color: rgba(0, 128, 0, 0.438);
+ }  
+.centered-container{
+    width: 1000px;
+    height: 3000px;
+    background-color: aqua;
+}
+
+
+/*first-section*/
+
+#first-section h2{
+    font-size: 2em;
+}
+
+#first-section #first-sect-title{
+    width: 100%;
+    background-color: bisque;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#first-section #first-sect-offers{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: bisque;
+}
+
+#first-section #first-sect-offers #monthly-sub{
+    margin-right: 30px;
+}
+
+#table-container{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(255, 0, 0, 0.397);
+    margin-bottom: 50px;
+}
+
+
+#table-container .table{
+    width: 33%;
+    height: 100%;
+    background-color: rgba(137, 43, 226, 0.466);
+    
+}
+
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: coral;
+    margin-bottom: 30px;
+    
+    
+}
+
+#last-table-sect{
+    width: 100%;
+    
+    background-color: rgba(255, 0, 0, 0.397) ;
+    
+}
+
+#last-table-header{
+    display: flex;
+    justify-content: space-between;
+   
+   width: 100%;
+   background-color: coral;
+}
+
+#last-table-main{
+    width: 800px;
+    background-color: coral;
+}
+
+#last-table-main > div{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+ 
+/* /first-section */
+
+/*Second-section*/
+
+#second-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 0, 0, 0.37);
+}
+
+#second-sect-img{
+    width: 60%;
+    height: 400px;
+    background-color:rgba(0, 0, 255, 0.226);  
+}
+
+#second-sect-text{
+   width: 40%;
+   height: 100%;
+   background-color: rgba(0, 0, 255, 0.226); 
 }

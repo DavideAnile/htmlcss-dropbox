@@ -287,13 +287,93 @@ body{
 
 #last-section-footer{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    
+    
     width: 100%;
     height: 250px;
     background-color: #b4d0e7;
 }
 
+.last-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    background-color: aqua;
+    
+    
+}
+
 #last-section-footer h2{
     color: #60082b;
+}
+
+/* /last-section*/
+
+/* Faq */
+
+#faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 400px;
+    background-color: aqua;
+
+}
+
+hr{
+    border: 1px solid;
+}
+
+/* /faq*/
+
+
+#credits{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+
+#credits-container{
+    width: 1200px;
+    background-color: lightgreen;
+    margin-top: 100px;
+}
+
+#up-credits{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+#up-credits ul li{
+  list-style-type: none;
+}
+
+
+.list-container{
+    width: calc(100% / 5);
+    height: 200px;
+    background-color: #60082b;
+}
+
+#lasts-credits{
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 200px;
+    background-color: #60082b;
 }

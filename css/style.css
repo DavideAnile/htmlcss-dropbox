@@ -1,17 +1,24 @@
 body{
     max-width: 1800px;
+    margin: auto;
     
     
 }
-
-.nav-bar{
+  
+.nav-bar{      /* Nav-bar*/
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 100px;
     background-color: rgba(0, 128, 0, 0.493);
+    
 }
 
+.tools{
+    width: calc(100% / 4 );
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.459);
+}
 #left-nav{
     display: flex;
     gap: 10px;
@@ -32,8 +39,50 @@ body{
     background-color: rgba(0, 255, 255, 0.459);
 }
 
-.tools{
-    width: calc(100% / 4 );
-    height: 60px;
-    background-color: rgba(0, 0, 255, 0.459);
+
+           /* /nav-bar*/
+
+#jambo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(153, 205, 50, 0.493);
+}
+
+#jambo-container{
+    width: 1200px;
+    height: 100%;
+    background-color: rgba(165, 42, 42, 0.432);
+    
+    
+}
+
+#jambo-title{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(173, 216, 230, 0.438);
+    margin-bottom: 50px;
+}
+
+
+#jambo-section{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: calc(100% - 250px);
+    background-color: rgba(211, 211, 211, 0.473);
+}
+
+#jambo-text{
+    width: 400px;
+    height: 100%;
+    
+    background-color: rgba(173, 216, 230, 0.438);
+}
+
+#jambo-img{
+    flex-grow: 1;
+    height: 100%;
+    background-color:  rgba(173, 216, 230, 0.438) ;
 }

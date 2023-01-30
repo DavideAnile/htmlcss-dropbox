@@ -1,43 +1,53 @@
 body{
-    max-width: 1800px;
+    max-width: 2000px;
     margin: auto;
     
     
 }
-  
-.nav-bar{      /* Nav-bar*/
+
+button{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+}
+    
+             /* Nav-bar*/
+
+.nav-bar{      
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
-    background-color: rgba(0, 128, 0, 0.493);
+    height: 80px;
+    
+}
+    
+
+.tools{
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
 
-.tools{
-    width: calc(100% / 4 );
-    height: 60px;
-    background-color: rgba(0, 0, 255, 0.459);
-}
 #left-nav{
     display: flex;
-    gap: 10px;
-    justify-content: space-between;
     align-items: center;
-    width: 500px;
-    height: 100%;
-    background-color: rgba(0, 255, 255, 0.486);
 }
-
+    
+    
 #right-nav{
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
     align-items: center;
-    width: 500px;
-    height: 100%;
-    background-color: rgba(0, 255, 255, 0.459);
 }
+    
+    
+
+#right-nav button{
+    padding: 5px 15px 5px 15px;
+    font-size: 1rem;
+}
+    
+    
+
 
 
            /* /nav-bar*/
@@ -47,51 +57,74 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 1000px;
-    background-color: rgba(153, 205, 50, 0.493);
+    /* height: 1000px; */
+    background-color: #b4d0e7;
 }
 
 #jambo-container{
     width: 1200px;
-    height: 100%;
-    background-color: rgba(165, 42, 42, 0.432);
+    /* height: 100%; */
+    /* background-color: rgba(165, 42, 42, 0.432); */
     
     
 }
 
 #jambo-title{
     width: 100%;
-    height: 200px;
-    background-color: rgba(173, 216, 230, 0.438);
+    /* height: 200px;
+    background-color: rgba(173, 216, 230, 0.438); */
     margin-bottom: 50px;
 }
 
 #jambo-title h1{
     font-size: 4em;
-    text-align: center;
     padding-top: 30px;
 }
+    
 
 
 #jambo-section{
     display: flex;
-    gap: 20px;
+    
     width: 100%;
-    height: calc(100% - 250px);
-    background-color: rgba(211, 211, 211, 0.473);
+    /* height: calc(100% - 250px); */
+    /* background-color: rgba(211, 211, 211, 0.473); */
 }
 
 #jambo-text{
-    width: 400px;
-    height: 100%;
     
-    background-color: rgba(173, 216, 230, 0.438);
+    width: 500px;
+    height: 100%;
+    font-size: 1.3em;
+    
+    /* background-color: rgba(173, 216, 230, 0.438); */
+}
+
+#jambo-text button{
+    margin: 50px 0 50px 0;
+    font-size: 1.25em;
+    padding: 15px;
+}
+
+
+#down-arrow{
+    font-size: 3em;
+    padding-top: 80px;
 }
 
 #jambo-img{
+    position: relative;
     flex-grow: 1;
-    height: 100%;
-    background-color:  rgba(173, 216, 230, 0.438) ;
+    /* height: 100%; */
+    /* background-color:  rgba(173, 216, 230, 0.438) ; */
+}
+
+#jambo-img img{
+    position: absolute;
+    
+    
+    max-width: 145%;
+    
 }
    /* /Jambo */
 

@@ -1,6 +1,6 @@
 body{
-    max-width: 2000px;
-    margin: auto;
+    /* max-width: 2000px; */
+    /* margin: auto; */
     
     
 }
@@ -10,6 +10,14 @@ button{
     color: white;
     border: none;
 }
+
+
+.table-content .large-btn{
+    margin: 50px 0 50px 0;
+    font-size: 1.25em;
+    padding: 15px;
+    width: 100%;
+}
     
              /* Nav-bar*/
 
@@ -17,8 +25,7 @@ button{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 80px;
-    
+    height: 70px;
 }
     
 
@@ -56,25 +63,23 @@ button{
 #jambo{
     display: flex;
     justify-content: center;
-    width: 100%;
-    /* height: 1000px; */
+    /* max-width: 100%; */
+    
     background-color: #b4d0e7;
 }
 
 #jambo-container{
-    width: 1200px;
-    /* height: 100%; */
-    /* background-color: rgba(165, 42, 42, 0.432); */
-    
-    
+    max-width: 1200px;
 }
-
+    
+    
 #jambo-title{
-    width: 100%;
-    /* height: 200px;
-    background-color: rgba(173, 216, 230, 0.438); */
+    
+    
     margin-bottom: 50px;
 }
+    
+
 
 #jambo-title h1{
     font-size: 4em;
@@ -86,61 +91,71 @@ button{
 #jambo-section{
     display: flex;
     
-    width: 100%;
-    /* height: calc(100% - 250px); */
-    /* background-color: rgba(211, 211, 211, 0.473); */
+   
+   
 }
 
 #jambo-text{
     
-    width: 500px;
-    height: 100%;
-    font-size: 1.3em;
+    width: 30%;
     
-    /* background-color: rgba(173, 216, 230, 0.438); */
+    font-size: 1em;
+    font-weight: bold;
+    
+    
 }
 
 #jambo-text button{
     margin: 50px 0 50px 0;
     font-size: 1.25em;
     padding: 15px;
+    width: 100%;
 }
 
 
 #down-arrow{
     font-size: 3em;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 #jambo-img{
     position: relative;
+    
+    
     flex-grow: 1;
-    /* height: 100%; */
-    /* background-color:  rgba(173, 216, 230, 0.438) ; */
 }
+    
+    
+    
 
 #jambo-img img{
+    
     position: absolute;
-    
-    
-    max-width: 145%;
-    
+    width: 100%;
 }
-   /* /Jambo */
+    
+        /* /Jambo */
+    
+    
+    
+    
+    
+    
+    
 
   /* main-sections*/
 
  .main-sections{
     display: flex;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
     
-    background-color: rgba(0, 128, 0, 0.438);
+    /* background-color: rgba(0, 128, 0, 0.438); */
  }  
 .centered-container{
     width: 1000px;
     
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 
@@ -151,77 +166,152 @@ button{
 }
 
 #first-section #first-sect-title{
-    width: 100%;
-    background-color: bisque;
-    margin-top: 100px;
+    /* width: 100%; */
+    /* background-color: bisque; */
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 
 #first-section #first-sect-offers{
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 30px;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 #first-section #first-sect-offers #monthly-sub{
     margin-right: 30px;
 }
 
-#table-container{
+#tables-container{
     display: flex;
+    
     gap: 50px;
-    width: 100%;
-    height: 1000px;
-    background-color: rgba(255, 0, 0, 0.397);
+    /* width: 100%; */
+    /* height: 1000px; */
+    /* background-color: rgba(255, 0, 0, 0.397); */
     margin-bottom: 50px;
 }
 
 
-#table-container .table{
+#tables-container .table{
     width: 33%;
-    height: 100%;
-    background-color: rgba(137, 43, 226, 0.466);
+    /* height: 100%; */
+    /* background-color: rgba(137, 43, 226, 0.466); */
+    border: 1px solid #cccc;
     
 }
+
+
 
 .users{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40px;
-    background-color: coral;
+    align-items: center; */
+    /* width: 100%;
+    height: 40px; */
+    padding: 10px;
+    text-align: center;
+    /* background-color: coral; */
     margin-bottom: 30px;
+    border: 1px solid #cccc;
     
     
 }
 
-#last-table-sect{
-    width: 100%;
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+ 
+.table h3{
+    font-size: 1.5em;
+}
+
+.table .price{
+    margin: 20px 0 20px 0;
+
+}
+
+.table-content .icon{
+    margin-right: 10px;
+}
+
+
     
-    background-color: rgba(255, 0, 0, 0.397) ;
+
+.table .table-header{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table .table-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table .table-content .row{
+    display: flex;
+}
+
+.table-content .row .fa-check{
+    color: blue;
+}
+
+.table .table-content hr{
+    margin: 40px 0 40px 0;
+    width: 80px;
+    color: #cccc;
+}
+    
+
+
+#last-table-sect{
+    border: 1px solid #cccc;
+    margin-bottom: 100px;
+    /* width: 100%; */
+    
+    /* background-color: rgba(255, 0, 0, 0.397) ; */
     
 }
 
 #last-table-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
    
-   width: 100%;
-   background-color: coral;
+   /* width: 100%;
+   background-color: coral; */
+}
+
+#last-table-header *{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#last-table-header button{
+    padding: 15px;
+    font-size: 1.25em;
 }
 
 #last-table-main{
-    width: 800px;
-    background-color: coral;
+    /* max-width: 800px; */
+    /* background-color: coral; */
+    padding-left: 20px;
 }
 
+/* #last-table-main b{
+    padding-left: 10px;
+} */
+
 #last-table-main > div{
-    margin-bottom: 100px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
  
+    
 /* /first-section */
 
 /*Second-section*/
@@ -230,22 +320,40 @@ button{
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 100%;
-    height: 600px;
-    background-color: rgba(255, 0, 0, 0.37);
-    margin-bottom: 50px;
+    /* width: 100%; */
+    /* height: 600px; */
+    /* background-color: rgba(255, 0, 0, 0.37); */
+    margin-bottom: 100px;
 }
 
 #second-sect-img{
     width: 60%;
-    height: 400px;
-    background-color:rgba(0, 0, 255, 0.226);  
+    /* height: 400px; */
+    /* background-color:rgba(0, 0, 255, 0.226);   */
+}
+
+#second-sect-img img{
+    width: 100%;
 }
 
 #second-sect-text{
+    
    width: 40%;
-   height: 100%;
-   background-color: rgba(0, 0, 255, 0.226); 
+   /* height: 100%; */
+   /* background-color: rgba(0, 0, 255, 0.226);  */
+}
+
+#second-sect-text h3{
+    font-size: 1.5em;
+}
+#second-sect-text p{
+    margin: 50px 0 50px 0;
+}
+#second-sect-text button{
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /* /Second-section*/
@@ -253,11 +361,7 @@ button{
 
 /*third-section*/
 
-#third-section{
-    width: 100%;
-    
-    background-color: blue;
-}
+
 
 #third-section h2{
     font-size: 2em;
@@ -270,15 +374,24 @@ button{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    width: 100%;
+    /* width: 100%; */
     
-    background-color: darkblue;
+    /* background-color: darkblue; */
 }
 
 .card{
     width: calc(100% / 3 - 20px);
-    height: 300px;
-    background-color: yellow;
+    /* height: 300px; */
+    /* background-color: yellow; */
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h3{
+    font-size: 1.25em;
+    margin: 30px 0 30px 0;
 }
 
 #third-section-footer{
@@ -287,8 +400,12 @@ button{
     justify-content: space-around;
     
     width: 70%;
-    height: 300px;
-    background-color: aliceblue;
+    min-height: 300px;
+    /* background-color: aliceblue; */
+}
+
+#third-section-footer *{
+    margin: 50px 0 50px 0
 }
 
 /* /third-section*/

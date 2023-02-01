@@ -43,6 +43,10 @@ button:hover{
     
 }
 
+.tools:hover a{
+    border-bottom: 3px solid blue;
+}
+
 #left-nav{
     display: flex;
     align-items: center;
@@ -170,7 +174,23 @@ button:hover{
         
     }
 
-    
+    .checkbox-circle{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid gray;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    }
+
+    .checkbox-circle:checked{
+        border: 5px solid blue;
+    }
+
     #first-section #first-sect-offers #monthly-sub{
         margin-right: 30px;
     }
@@ -436,38 +456,73 @@ button:hover{
         filter: invert(1);
     }
 
-    #in-square1{
+    #in-square1{                           /* SQUARES hover*/
         background-color: #a2d39b;
-        border: 10px solid #d1e9cd;
+        
     }
+
+    #in-square1:hover{
+        border: 20px solid #d1e9cd;
+    }
+
     
     #in-square2{
         background-color: #61082b;
     }
+
+    #in-square2:hover{
+        border: 20px solid #8b2951;
+        
+    }
+        
     
     #in-square3{
         background-color:#0093ce;
     }
+
+    #in-square3:hover{
+        border: 20px solid #2c7a99;
+    }
     
     #in-square4{
         background-color: #ff1c1c;
+    }
+
+    #in-square4:hover{
+        border: 20px solid #d36a6a;
     }
     
     #in-square5{
         background-color: #d5001f;
     }
 
+    #in-square5:hover{
+        border: 20px solid #d36475;
+    }
+
     #in-square6{
         background-color: #b4d0e7;
+    }
+
+    #in-square6:hover{
+        border: 20px solid #529fdf;
     }
     
     #in-square7{
         background-color: #0d2481;
     }
+
+    #in-square7:hover{
+        border: 20px solid #344483; 
+    }
     
     #in-square8{
         background-color: #ffd830;
     }
+
+    #in-square8:hover{
+        border: 20px solid #cec186;
+    }                                     /* /SQUARES hover*/
     
     #last-section-footer{
         display: flex;
@@ -527,18 +582,19 @@ button:hover{
     
     .faq-content{
         margin: 40px 0 40px 0;
-        transition: opacity 3s linear ;
+        
     }
 
     .faq-content:hover .hidden-content{
         opacity: 1;
-        height: auto;
+        height: 50px;
         
     }
 
     .hidden-content{
+        transition: opacity .4s linear, height .5s linear;
         opacity: 0;
-        /* height: 0; */
+        height: 0;
     }
 
     .shown-content{

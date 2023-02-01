@@ -514,6 +514,7 @@ button:hover{
         flex-direction: column;
         justify-content: space-evenly;
         width: 1000px;
+        
     }
         
     
@@ -523,12 +524,34 @@ button:hover{
     .faq-container hr{
         border: 1px solid lightgray;
     }
+    
     .faq-content{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin: 40px 0 40px 0;
+        transition: opacity 3s linear ;
     }
+
+    .faq-content:hover .hidden-content{
+        opacity: 1;
+        height: auto;
+        
+    }
+
+    .hidden-content{
+        opacity: 0;
+        /* height: 0; */
+    }
+
+    .shown-content{
+      display: flex;
+      justify-content: space-between;  
+    }
+
+
+
+    .hidden-content p{
+        padding: 20px 0 20px 0;
+    }
+
 
     /* /faq*/
     
